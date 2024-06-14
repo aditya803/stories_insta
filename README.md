@@ -1,4 +1,7 @@
 # Instagram Stories Feature
+##Overview
+
+This Flutter application implements a simplified version of the Instagram Stories feature. It allows users to view a series of "stories" in a horizontally scrollable list. The focus is on the user interface and interaction, with data served by a backend API.
 
 ## Setup Instructions
 
@@ -11,7 +14,7 @@
 
 To run unit tests:
 ```sh
-flutter
+flutter test
 ```
 
 ##Architecture and Design Choices
