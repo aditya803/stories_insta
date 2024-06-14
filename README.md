@@ -1,16 +1,22 @@
-# stories_insta
+# Instagram Stories Feature
 
-A new Flutter project.
+## Setup Instructions
 
-## Getting Started
+1. Clone the repository.
+2. Navigate to the project directory.
+3. Run `flutter pub get` to install dependencies.
+4. Run the app using `flutter run`.
 
-This project is a starting point for a Flutter application.
+## Running Tests
 
-A few resources to get you started if this is your first Flutter project:
+To run unit tests:
+```sh
+flutter
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+##Architecture and Design Choices
+
+1. I have used Provider package for state management to manage application state.
+2. I have also seperated code on the basis of its function namely UI, State, Model, Data.
+3. Fetched data from a backend API to ensure scalability.
+4. At first I wrote the whole UI and other functions in just main.dart thinking it will be a small implementation. But however, later applied state management and segregated code on the basis of funcationality. 
