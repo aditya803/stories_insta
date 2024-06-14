@@ -18,7 +18,7 @@ To run unit tests:
 flutter test
 ```
 
-##Architecture and Design Choices
+## Architecture and Design Choices
 
 1. I have used Provider package for state management to manage application state.
 2. I have also seperated code on the basis of its function namely UI, State, Model, Data.
