@@ -12,7 +12,7 @@
 To run unit tests:
 ```sh
 flutter
-
+```
 
 ##Architecture and Design Choices
 
