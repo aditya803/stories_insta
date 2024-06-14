@@ -1,15 +1,15 @@
-import 'package:stories_insta/models/user_model.dart';
+enum StoryType { image, video }
 
-enum MediaType{
-  image,
-  video
-}
-
-class Story{
+class Story {
+  final int id;
   final String url;
-  final MediaType mediaType;
-  final Duration duration;
-  final User user;
+  final int duration; // Duration in seconds
+  final StoryType type;
 
-  Story({required this.user, required this.duration, required this.mediaType, required this.url});
+  Story({
+    required this.id,
+    required this.url,
+    required this.duration,
+    required this.type,
+  });
 }
